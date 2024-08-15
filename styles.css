@@ -1,0 +1,108 @@
+body {
+    background-color: #ddcbff;
+    border: solid 3px #8a2be2;
+    
+    }
+    
+    header {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    header img {
+        display: inline;
+        height: 150px;
+        margin: 0;
+ 
+    }
+    .clink{
+        position: relative;
+    }
+    #glass1{
+        position: relative;
+        left:66px;
+        animation-name:clink;
+        animation-duration: 2s;
+        animation-iteration-count: infinite ;
+    }
+    #glass2 {
+        animation-name:clink2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    h1 {
+        color:black;
+        text-decoration-line: underline; text-decoration-color:#8a2be2;
+        font-size: 2.5rem;
+    }
+    @keyframes clink {
+       50% {
+        transform:rotate(45deg);
+       }
+    }
+    @keyframes clink2 {
+        50% {
+         transform: rotate(-45deg)
+        }
+        
+     }
+    nav {
+       text-align: center;
+       gap:5px;
+    
+    }
+    nav img {height:50px; width: auto;
+    }
+    nav a {
+        color: #4a1e9e;
+        transition: font-size .5s;
+
+    
+    }
+    nav  a:hover {
+        font-size: 1.2rem;
+        font-weight: bold
+    }
+
+    main {
+        text-align: center  ;
+    }
+    main img {
+        height: 1000px;
+        width: auto;
+    }
+    main a{
+        text-align:center;
+        color: #4a1e9e;
+        font-weight:bold;
+    }
+footer {
+    text-align:center;
+}
+    #PinterestLogo{
+    height: 20px;
+    }
+    
+    .contact {
+        border: solid 3px;
+    text-align:center;
+    }
+    
+    .footer {
+    
+    }
+            #intro{
+                color: #4a1e9e;
+            }
+
+    .Menu {
+        
+    }
+    .list {
+       padding-top: 5%;
+    }
+.arboretumphoto {
+    width: 500px
+}
